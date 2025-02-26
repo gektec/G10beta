@@ -60,11 +60,10 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-            --config ./OER/hugo.toml
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          path: ./OER/public
+          path: ./public
 
   # Deployment job
   deploy:
