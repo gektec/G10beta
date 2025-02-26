@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'GRP G10 OER'
+theme = 'hugo-theme-relearn'
