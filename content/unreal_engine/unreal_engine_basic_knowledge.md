@@ -5,26 +5,24 @@ tags: []
 series: []
 featured: true
 ---
-# Chapter 2: Unreal Engine Basic Knowledge
-
-## 2.1 Unreal Editor Interface
+## 1 Unreal Editor Interface
 - **Menu Bar**: Located at the top-right on Windows or top of the screen on macOS.
 - **Main Toolbar**: Contains commonly used tools.
 - **Level Viewport**: Displays the current scene.
 - **Content Drawer Button**: Opens the Content Browser.
 - **Bottom Toolbar**: Contains additional tools and settings.
 
-## 2.2 Overview of Tools and Editors
+## 2 Overview of Tools and Editors
 - Brief description of tools and editors available in Unreal Engine.
 
-## 2.3 Terminology
-### 2.3.1 Unreal Engine Terminology
+## 3 Terminology
+### 3.1 Unreal Engine Terminology
 - Definitions of key terms used in Unreal Engine.
-### 2.3.2 Coordinate Space Terminology
+### 3.2 Coordinate Space Terminology
 - Explanation of coordinate systems in Unreal Engine.
 
-## 2.4 Guide for Non-Games Licenses
+## 4 Guide for Non-Games Licenses
 - Information on licensing for non-gaming applications.
 
-## 2.5 Directory Structure
+## 5 Directory Structure
 - Overview of the Unreal Engine directory structure.

@@ -1,12 +1,10 @@
 ---
-title: Title
+title: Add-ons
 date: 2025-02-28T19:32:41+08:00
 tags: []
 series: []
 featured: true
 ---
-# Chapter 7: Add-ons
-
 ## Datasmith
 - Overview and usage of Datasmith.
 
