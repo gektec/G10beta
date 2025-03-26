@@ -4,6 +4,7 @@ theme = 'hugo-theme-relearn'
 [params]
     alwaysopen = true
     collapsibleMenu=true
+    ordersectionsby = 'title'
     [[params.themeVariant]]
         auto = []
         identifier = 'relearn-auto'
@@ -17,4 +18,4 @@ theme = 'hugo-theme-relearn'
         identifier = 'relearn-dark'
         name = 'Dark'
 
-    ordersectionsby = 'linktitle'
+    

@@ -9,14 +9,14 @@
     <lastBuildDate>Wed, 26 Mar 2025 13:52:00 +0800</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scheduling Meetings Effectively</title>
+      <title>Chapter 10: Scheduling Meetings Effectively</title>
       <link>//localhost:1313/10.scheduling/index.html</link>
       <pubDate>Wed, 26 Mar 2025 13:52:00 +0800</pubDate>
       <guid>//localhost:1313/10.scheduling/index.html</guid>
       <description>Ensuring that meetings are scheduled efficiently is a crucial aspect of successful stakeholder engagement. This becomes especially important when stakeholders have demanding schedules. Striking a balance between minimizing disruptions and securing a suitable time slot is key. Our team encountered several challenges in scheduling meetings with stakeholders, leading to delays and inefficiencies. By sharing our experiences, we hope to provide a structured guide for scheduling meetings effectively.&#xA;Recommended Tool for Scheduling: Doodle Our stakeholders initially suggested using Doodle as a scheduling tool. After using it, we found it to be highly effective in streamlining the scheduling process. Doodle allows users to create a form with multiple time slots, which can be shared with stakeholders via a link. Stakeholders can then easily select their available time slots, simplifying the coordination process.</description>
     </item>
     <item>
-      <title>Effective Stakeholder Meetings: Lessons from a Collaborative Project</title>
+      <title>Chapter 9: Effective Stakeholder Meetings: Lessons from a Collaborative Project</title>
       <link>//localhost:1313/9.meeting/index.html</link>
       <pubDate>Wed, 26 Mar 2025 13:51:00 +0800</pubDate>
       <guid>//localhost:1313/9.meeting/index.html</guid>
@@ -37,10 +37,10 @@
       <description>After we won the bid for this project, we had a period of hiatus prior to formal contact with stakeholders. Because the stakeholders are busy, it is difficult to make appointments with them. So we had almost three weeks to prepare for formal contact. In the first week, we didn’t pay much attention to it, and that was our mistake. But after a meeting with our professor, Dave, we immediately realized the importance of meeting with stakeholders and started focusing on it right away.</description>
     </item>
     <item>
-      <title>Unreal_engines</title>
-      <link>//localhost:1313/unreal_engine/index.html</link>
-      <pubDate>Mon, 24 Mar 2025 13:31:59 +0800</pubDate>
-      <guid>//localhost:1313/unreal_engine/index.html</guid>
+      <title>Unreal Engines</title>
+      <link>//localhost:1313/unreal-engine/index.html</link>
+      <pubDate>Thu, 20 Mar 2025 17:28:24 +0800</pubDate>
+      <guid>//localhost:1313/unreal-engine/index.html</guid>
       <description></description>
     </item>
   </channel>
