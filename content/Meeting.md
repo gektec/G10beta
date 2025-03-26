@@ -1,0 +1,66 @@
+---
+title: "Effective Stakeholder Meetings: Lessons from a Collaborative Project"
+date: 2025-03-26T13:51:00+08:00
+tags: []
+series: []
+featured: true
+---
+
+Stakeholders meetings are crucial in ensuring a successful project, as it ensures alighnment among team members and the stakeholders. These meetings allows the team to  have a proper understanding of the entire project. However, organizing and running effective stakeholder meetings requires careful planning and clear roles in order. The last thing a team wants is to leave an unprofessional impression, as this could damage trust and discourage stakeholders from continuing the collaboration.
+
+## Key Steps for Successful Stakeholder Meetings
+
+### 1. Structured Agenda
+A well-prepared agenda is essential for keeping meetings focused and productive. It should outline key discussion points to be made. Based on our experience, using point forms is often sufficient, but it’s also helpful to include additional notes or sub-points for important details. This ensures that critical topics are not overlooked and provides a reference in case any points are forgotten during the discussion.
+
+
+### 2. Clear Roles and Responsibilities
+Assigning specific roles for each meeting helps streamline discussions and ensures accountability. In our project, we adopted the following roles:
+- **Chair**: Guides the meeting, keeps discussions on track, and ensures the agenda is followed. The chair is the main person driving the conversation and presenting updates.
+- **Tech Lead**: Provides technical insights, supports the chair during discussions, and highlights any missed points or technical considerations.
+- **Secretary**: Documents meeting minutes, record whatever important points that were discussed in the meeting.
+
+
+### 3. Adaptive Communication and Smart Engagement
+
+Effective communication is key to stakeholder meetings. Instead of rigidly sticking to the agenda, it is crucial to follow the natural flow of the conversation. If certain points have already been addressed on an earlier conversation, repeating them unnecessarily can frustrate stakeholders. Likewise, asking the same questions multiple times can make the team appear unprepared and disorganized.
+
+To improve communication, we recommend:
+
+- **Reading the room**: Pay attention to stakeholders' engagement levels and adapt accordingly.
+
+- **Avoiding excessive repetition**: Be mindful of what has already been discussed and prevent redundancy.
+
+### 4. Meeting Minutes 
+Recording meeting minutes is a crucial part of successful stakeholder engagement. A well-documented record of discussions ensures that key points are not forgotten and provides a clear reference for future actions. Meeting minutes also help team members who were unable to attend stay informed about what was discussed.
+
+Additionally, keeping detailed records prevents minor details from being overlooked and serves as a checklist for tracking progress. By reviewing the minutes, the team can ensure that all discussed points have been addressed and necessary follow-ups are completed.
+
+In our meetings, minutes are recorded in point form for clarity and efficiency. To enhance understanding, we include brackets to provide additional explanations or justifications for each recorded point. This approach helps ensure that every note remains meaningful and actionable.
+![minutes](/images/meeting/Minutes.png)
+
+
+### 5. Action Items and Follow-Ups
+At the end of each stakeholder meeting, we hold an internal team discussion to brief the other group members on what was discussed and outline the actions to be taken moving forward. This ensures everyone is informed and aligned with the next steps.
+
+---
+## Lessons Learned: The Value of Consistency
+
+While our approach had many strengths, we identified an area for improvement: **rotating roles during stakeholder meetings**. Although the chair remained consistent throughout the project, the tech lead and secretary roles were rotated weekly to give everyone an opportunity to experience these responsibilities. While this was well-intentioned and allowed team members to develop new skills, it led to some lighthearted comments from stakeholders about the number of group members they interacted with. Although this was not a major issue, we realized that having fixed roles for the tech lead and secretary would likely improve efficiency and make it easier for stakeholders to build rapport and trust with the team. Moving forward, we believe consistency in roles will enhance the overall effectiveness of our meetings.
+
+### What We Learned:
+- **Consistency Builds Trust**: Keeping the same people in key roles (e.g., tech lead and secretary) ensures that stakeholders have a consistent point of contact, fostering stronger relationships over time.
+- **Role Familiarity Enhances Performance**: When individuals perform the same role repeatedly, they become more skilled and efficient, leading to smoother meetings and better outcomes.
+- **Balance Learning and Stakeholder Needs**: While it’s important to provide team members with growth opportunities, this should be balanced with the need for stakeholder confidence and meeting effectiveness.
+
+---
+
+## Best Practices for Future Projects
+
+Based on our experience, here are some recommendations for organizing stakeholder meetings:
+
+1. **Assign Fixed Roles**: Identify a consistent chair, tech lead, and secretary for the duration of the project. This ensures continuity and builds stakeholder confidence.
+2. **Rotate Roles Strategically**: If team members need exposure to different roles, consider rotating responsibilities during internal team meetings rather than stakeholder meetings.
+3. **Prepare Agendas**: Clearly communicate the purpose, structure, and roles of the meeting to stakeholders in advance to set expectations.
+4. **Document and Share Minutes**: Ensure meeting minutes and action items are shared promptly after each meeting to keep everyone informed and aligned.
+

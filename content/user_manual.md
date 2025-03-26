@@ -11,7 +11,7 @@ This user manual consists of two parts:
 1. **User Manual for the Virtual Environment Asset** – Instructions on opening and interacting with the virtual environment created by our team.
 2. **User Manual for the Open Educational Resource (OER)** – Guide on accessing the educational content provided.
 
-<br><br>
+
 
 # User Manual for Virtual Environment Asset
 
@@ -32,23 +32,22 @@ This manual will guide you through installation, navigation, material customizat
 2. Open the launcher and navigate to **Unreal Engine**.
 3. Click **Install** and select version **5.3.2**.
 4. Launch **Unreal Engine 5.3.2**.
-<br>
-![Launch](images/user_manual/Launch.png)
-<br>
+
+![Launch](/images/user_manual/Launch.png)
+
 
 ### **Step 2: Open the Virtual Environment**
 1. Locate the provided file (**UE.zip**).
 2. Extract the file.
-<br>
-![Extract](images/user_manual/Extract.png)
-<br>
-3. Locate and double-click the file with Unreal Engine icon – Unreal Engine will launch and load the environment.
-<br>
-![UE](images/user_manual/UE.png)
+![Extract](/images/user_manual/Extract.png)
+
+1. Locate and double-click the file with Unreal Engine icon – Unreal Engine will launch and load the environment.
+
+![UE](/images/user_manual/UE.png)
 4. Press the green triangle button on top of the bar to run the environment.
-<br>
-![play](images/user_manual/play.png)
-<br>
+
+![play](/images/user_manual/Play.png)
+
 ---
 
 ## 3. Navigating the Scene
@@ -63,45 +62,45 @@ Use the following controls to move around:
 ---
 
 ## 4. Interaction: Light Toggle (Hospital Room Only)
-- Press <strong>F</strong> to toggle the lights in the hospital room.<br>
+- Press **F** to toggle the lights in the hospital room.
 - The action works only in the hospital room; other areas do not have interactive elements.
 
 ### Asset before 
-<br>
 
-![Lightsoff](images/user_manual/Lightsoff.png)
-<br>
+
+![Lightsoff](/images/user_manual/LightsOff.png)
+
 
 ### Asset after
-<br>
 
-![Lightson](images/user_manual/Lightson.png)
-<br>
+
+![Lightson](/images/user_manual/LightsOn.png)
+
 
 ---
 
 ## 5. Editing the asset
 ### **Step 1: Select the asset you want to edit**
 1. Left-click on the asset you want to edit. Once selected, the asset will be highlighted as shown below.
-<br>
-![Select](images/user_manual/Select.png)
-<br>
+
+![Select](/images/user_manual/Select.png)
+
 
 ### **Step 2: Changing material**
 1. Locate the **Material** section in the **Details Panel** on the bottom right of the screen.
-   <br>
-   ![texture1](images/user_manual/texture1.png)
-   <br>
+   
+   ![texture1](/images/user_manual/Texture1.png)
+   
 2. Click on the **dropdown menu** to select a different material.
-    <br>
-    ![texture2](images/user_manual/texture2.png)
-    <br>
+    
+    ![texture2](/images/user_manual/Texture2.png)
+    
 
 ### **Step 3: Changing Location**
 1. After selecting the asset, a three-axis gizmo will appear.
-   <br>
-   ![move](images/user_manual/move.png)
-   <br>
+   
+   ![move](/images/user_manual/Move.png)
+   
 2. Dragging the arrows moves the asset along different axes:
    - Red (X-Axis) -- Moves the object along the X-axis (Left / Right)
    - Green (Y-Axis) -- Moves the object along the Y-axis (Forward / Backward)

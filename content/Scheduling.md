@@ -1,0 +1,43 @@
+---
+title: "Scheduling Meetings Effectively"
+date: 2025-03-26T13:52:00+08:00
+tags: []
+series: []
+featured: true
+---
+
+Ensuring that meetings are scheduled efficiently is a crucial aspect of successful stakeholder engagement. This becomes especially important when stakeholders have demanding schedules. Striking a balance between minimizing disruptions and securing a suitable time slot is key. Our team encountered several challenges in scheduling meetings with stakeholders, leading to delays and inefficiencies. By sharing our experiences, we hope to provide a structured guide for scheduling meetings effectively.
+
+## Recommended Tool for Scheduling: Doodle
+
+Our stakeholders initially suggested using [Doodle](www.doodle.com) as a scheduling tool. After using it, we found it to be highly effective in streamlining the scheduling process. Doodle allows users to create a form with multiple time slots, which can be shared with stakeholders via a link. Stakeholders can then easily select their available time slots, simplifying the coordination process.
+
+#### Figure 1: Layout of the Doodle Form
+![doodle form](/images/scheduling/Doodleform.png)
+
+## Lessons Learned in Scheduling Meetings
+
+### 1. Avoid Delays in Sending Doodle Links
+
+Due to internal decision-making delays and occasional procrastination, we took too long to initiate the scheduling process. The back-and-forth communication took approximately two weeks, resulting in a situation where one of the stakeholders was unable to attend the meeting and had to send a representative instead. To prevent such issues, we highly recommend initiating scheduling discussions during meetings or at least one week in advance. Early scheduling significantly reduces potential conflicts and disruptions.
+
+### 2. Providing an Insufficient Number of Time Slots
+
+Initially, we provided only five available slots in a week, which proved inadequate as none aligned with the stakeholders' schedules. To address this, we expanded the selection to 20 time slots. However, this led to confusion as stakeholders were unsure why a second Doodle link was sent, requiring them to fill out a new form. Furthermore, when no common slot was found, another scheduling attempt had to be made for the following week, resulting in excessive email exchanges and frustration.
+
+#### Figure 2: Example of Doodle Time Slots Results
+![doodle result](/images/scheduling/Doodleresult.png)
+
+### 3. Alternative Solutions to Scheduling Conflicts
+
+Since securing a time that accommodated all stakeholders proved challenging, we explored alternative solutions:
+
+- **Rotating Stakeholders for Each Meeting**: Instead of biweekly meetings with all stakeholders, we held weekly meetings with one stakeholder at a time, alternating between them. This ensured that both stakeholders remained informed and had opportunities to provide input. However, one stakeholder expressed concerns about the increased frequency, stating that they might not have significant contributions in every session due to their specific role in the project.
+
+- **Proceeding with Meetings Despite an Absent Stakeholder**: Our chosen solution involved conducting meetings even if a stakeholder was unavailable. A representative was assigned to attend on their behalf, take meeting minutes, and capture relevant visuals of our progress. This ensured that absent stakeholders could still stay informed through documented records.
+
+- **Establishing a Fixed Meeting Schedule**: Initially, meetings were scheduled on an ad-hoc basis, only when the team was ready for stakeholder discussions. This proved highly inefficient, as securing stakeholder availability required at least a week's notice, causing project delays. Transitioning to a biweekly fixed meeting schedule eliminated the need for constant rescheduling, as all participants were aware of the designated time in advance.
+
+## Conclusion
+
+Effective meeting scheduling requires early planning, clear communication, and adaptability. By using tools like Doodle, minimizing scheduling delays, and establishing a consistent meeting cadence, teams can avoid unnecessary disruptions and maintain smooth collaboration with stakeholders.
