@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>COMP2043 GRP Group 10 Open Educational Resources :: GRP G10 OER</title>
+    <title>COMP2043 GRP Group 10 Open Educational Resources :: G10 OER</title>
     <link>//localhost:1313/index.html</link>
     <description>In the forefront of today’s film and television Production, Virtual Production is gradually becoming a key force to promote industry change. Virtual production is an innovative film and television production technology, which deeply integrates traditional film and television shooting with advanced digital technology. Through real-time rendering, motion capture and other technical means, realistic scenes, characters and special effects are created in the virtual environment, and can be presented in real time on the shooting scene, so that creators can adjust and optimize the shooting content in real time. Greatly improve the flexibility and efficiency of creation.</description>
     <generator>Hugo</generator>
@@ -39,7 +39,7 @@
     <item>
       <title>Unreal Engines</title>
       <link>//localhost:1313/unreal-engine/index.html</link>
-      <pubDate>Thu, 20 Mar 2025 17:28:24 +0800</pubDate>
+      <pubDate>Mon, 24 Mar 2025 13:31:59 +0800</pubDate>
       <guid>//localhost:1313/unreal-engine/index.html</guid>
       <description></description>
     </item>

@@ -1,5 +1,5 @@
 languageCode = 'en-uk'
-title = 'GRP G10 OER'
+title = 'G10 OER'
 theme = 'hugo-theme-relearn'
 [params]
     alwaysopen = true
