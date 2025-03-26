@@ -33,20 +33,20 @@ This manual will guide you through installation, navigation, material customizat
 3. Click **Install** and select version **5.3.2**.
 4. Launch **Unreal Engine 5.3.2**.
 
-![Launch](/images/user_manual/Launch.png)
+![Launch](/G10/images/user_manual/Launch.png)
 
 
 ### **Step 2: Open the Virtual Environment**
 1. Locate the provided file (**UE.zip**).
 2. Extract the file.
-![Extract](/images/user_manual/Extract.png)
+![Extract](/G10/images/user_manual/Extract.png)
 
 1. Locate and double-click the file with Unreal Engine icon – Unreal Engine will launch and load the environment.
 
-![UE](/images/user_manual/UE.png)
+![UE](/G10/images/user_manual/UE.png)
 4. Press the green triangle button on top of the bar to run the environment.
 
-![play](/images/user_manual/Play.png)
+![play](/G10/images/user_manual/Play.png)
 
 ---
 
@@ -68,13 +68,13 @@ Use the following controls to move around:
 ### Asset before 
 
 
-![Lightsoff](/images/user_manual/LightsOff.png)
+![Lightsoff](/G10/images/user_manual/LightsOff.png)
 
 
 ### Asset after
 
 
-![Lightson](/images/user_manual/LightsOn.png)
+![Lightson](/G10/images/user_manual/LightsOn.png)
 
 
 ---
@@ -83,23 +83,23 @@ Use the following controls to move around:
 ### **Step 1: Select the asset you want to edit**
 1. Left-click on the asset you want to edit. Once selected, the asset will be highlighted as shown below.
 
-![Select](/images/user_manual/Select.png)
+![Select](/G10/images/user_manual/Select.png)
 
 
 ### **Step 2: Changing material**
 1. Locate the **Material** section in the **Details Panel** on the bottom right of the screen.
    
-   ![texture1](/images/user_manual/Texture1.png)
+   ![texture1](/G10/images/user_manual/Texture1.png)
    
 2. Click on the **dropdown menu** to select a different material.
     
-    ![texture2](/images/user_manual/Texture2.png)
+    ![texture2](/G10/images/user_manual/Texture2.png)
     
 
 ### **Step 3: Changing Location**
 1. After selecting the asset, a three-axis gizmo will appear.
    
-   ![move](/images/user_manual/Move.png)
+   ![move](/G10/images/user_manual/Move.png)
    
 2. Dragging the arrows moves the asset along different axes:
    - Red (X-Axis) -- Moves the object along the X-axis (Left / Right)
