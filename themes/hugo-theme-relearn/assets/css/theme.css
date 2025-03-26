@@ -283,37 +283,8 @@ a:focus,
   padding: 0 1rem;
 }
 
-.footerFooter {
-  font-size: 0.8125rem;
-  padding-top: 2rem;
-  padding-bottom: 0.75rem;
-  text-align: center;
-}
-
-.footerFooter > * {
-  margin: 0 auto;
-}
-
-#R-footer {
-  color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
-}
-
-#R-footer > hr:first-child {
-  margin-top: 0;
-}
-
-/* increase specifity to override following #R-content-wrapper hr style */
-#R-footer > hr:nth-child(n) {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 #R-sidebar .R-sidebarmenu > ul {
   margin-top: 1rem;
-}
-
-#R-sidebar .R-sidebarmenu > .nav-title ~ ul {
-  margin-top: 0.8rem;
 }
 
 #R-sidebar ul {
@@ -354,21 +325,102 @@ a:focus,
   font-family: var(--INTERNAL-MAIN-TITLES-H1-font);
   letter-spacing: var(--INTERNAL-MAIN-TITLES-H1-letter-spacing);
   line-height: 110%;
-  margin: 1.2rem 0 0.8rem 0;
+  margin: 1.25rem 0 -0.25rem 0;
   padding-inline-start: 1rem;
   text-rendering: optimizeLegibility;
   text-transform: uppercase;
 }
 
-#R-sidebar .footermargin {
-  flex-grow: 1;
+#R-sidebar hr {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin: 1rem 1rem 0 1rem;
+}
+
+#R-homelinks hr {
+  border-color: var(--INTERNAL-MENU-HOME-SEPARATOR-color);
+}
+#R-homelinks .R-menu-divider:first-child hr {
+  border-color: var(--INTERNAL-MENU-HOME-TOP-SEPARATOR-color);
+  margin-top: 0;
+}
+#R-homelinks .R-menu-divider:last-child hr {
+  border-color: var(--INTERNAL-MENU-HOME-BOTTOM-SEPARATOR-color);
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+/* visibility for sidebarheader is tricky; first and last divider may have different colors
+than the ones in between, so they need to have privileged visibility; order is:
+- last
+- first
+- in between
+*/
+#R-sidebar .R-sidebarmenu:not(:has(> ul > *)) {
+  /* hide all empty menus */
+  display: none;
+}
+#R-sidebar .R-menu-divider:not(:has(+ .R-sidebarmenu > ul > *)) hr {
+  /* hide all upper hrs if the following menu has no entries,
+  this is common for all menu regardless of header, body or footer */
+  display: none;
+}
+#R-homelinks .R-menu-divider:first-child:not(:has(+ .R-sidebarmenu > ul > *)):has(~ .R-sidebarmenu > ul > *) hr {
+  /* in case if the first menu is empty and we have some other menus to follow, we have
+  to show the first divider because of different coloring */
+  display: revert;
+}
+#R-homelinks .R-menu-divider:first-child + .R-sidebarmenu:not(:has(> ul > *)) ~ .R-menu-divider:has(+ .R-sidebarmenu > ul > *) hr {
+  /* in case if the first menu is empty and we have some other menus to follow, we have
+  to hide the first following menus divider because of different coloring;
+  this selector selects all following menus, so we have to write a follow up
+  rule to remove that effect on all but the first */
+  display: none;
+}
+#R-sidebar #R-homelinks .R-menu-divider:has(+ .R-sidebarmenu > ul > *) ~ .R-menu-divider:has(+ .R-sidebarmenu > ul > *) hr {
+  /* the mentioned follow up rule from above */
+  display: revert;
+}
+#R-sidebar #R-homelinks .R-menu-divider:last-child hr {
+  display: revert;
 }
 
 #R-content-wrapper hr {
   border-color: var(--INTERNAL-MENU-SECTION-SEPARATOR-color);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  margin: 1.5rem 1rem 1rem 1rem;
+}
+
+#R-footer-margin {
+  flex-grow: 1;
+}
+
+#R-footer-margin + .R-menu-divider hr {
+  margin-top: 1.25rem;
+}
+
+#R-footer {
+  color: var(--INTERNAL-MENU-SECTIONS-LINK-color);
+  font-size: 0.8125rem;
+  padding-bottom: 1.25rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+#R-footer:empty {
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+}
+
+#R-footer > * {
+  margin: 0 auto;
+}
+
+#R-footer > hr:first-child {
+  margin-bottom: 1.25rem;
+  margin-top: -0.5rem;
+}
+
+#R-footer > hr {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 article .R-taxonomy.tags {
@@ -376,6 +428,10 @@ article .R-taxonomy.tags {
   --VARIABLE-TAGS-BG-color: var(--VARIABLE-BOX-color);
   margin-left: 1rem;
   margin-top: 1rem;
+}
+
+article .R-taxonomy.tags i {
+  display: none;
 }
 
 article .R-taxonomy.tags ul > li ~ li:before {
@@ -945,23 +1001,6 @@ code {
   padding-right: 2px;
 }
 
-span.copy-to-clipboard {
-  display: inline;
-  position: relative;
-}
-
-/* #1022 FF has issues if we set span.copy-to-clipboard to display: block;
-so this is not an option; and we have to flip the elements ourself in the
-JS part of the code; this will fix FF for LTR but RTL is still broken;
-so at least it looks fine for most of the user base */
-.inline-copy-to-clipboard-button + code.copy-to-clipboard-code,
-code.copy-to-clipboard-code:has(+ .inline-copy-to-clipboard-button) {
-  border-end-end-radius: 0;
-  border-start-end-radius: 0;
-  border-inline-end-width: 0;
-  margin-inline-end: calc(22px + var(--bpx1) * 2px);
-}
-
 pre:not(.mermaid) {
   background-color: var(--INTERNAL-CODE-BLOCK-BG-color);
   border-color: var(--INTERNAL-CODE-BLOCK-BORDER-color);
@@ -974,12 +1013,6 @@ pre:not(.mermaid) {
   line-height: 1.15;
   padding: 1rem;
   position: relative;
-}
-
-div.highlight {
-  /* even in RTL languages code is supposed to be LTR */
-  direction: ltr;
-  text-align: left;
 }
 
 pre:not(.mermaid) code {
@@ -1017,6 +1050,7 @@ tr:has(th) {
   background-color: var(--INTERNAL-MAIN-BG-color);
   position: sticky;
   top: -1px;
+  z-index: 110;
 }
 div.highlight > div td {
   border-width: 0;
@@ -1116,7 +1150,9 @@ tbody > tr:nth-child(even) > td {
   color: rgba(255, 255, 255, 1);
   content: attr(aria-label);
   display: none;
+  font-family: var(--INTERNAL-MAIN-font);
   font-size: 0.6875rem;
+  font-weight: 700;
   -webkit-font-smoothing: subpixel-antialiased;
   line-height: 1.5;
   padding: 5px 8px;
@@ -1432,14 +1468,19 @@ html[dir='rtl'] .topbar-button-next i {
   }
 }
 
+span.copy-to-clipboard {
+  display: inline;
+  position: relative;
+}
+
+code.copy-to-clipboard-code:has(+ .inline-copy-to-clipboard-button):after {
+  display: inline-block;
+  width: calc(22px + var(--bpx1) * 2px);
+  content: '';
+}
+
 .inline-copy-to-clipboard-button,
 .block-copy-to-clipboard-button {
-  border-start-start-radius: 0;
-  border-start-end-radius: 2px;
-  border-end-end-radius: 2px;
-  border-end-start-radius: 0;
-  border-style: solid;
-  border-width: 1px;
   cursor: pointer;
   display: inline;
   font: initial;
@@ -1449,12 +1490,12 @@ html[dir='rtl'] .topbar-button-next i {
 .inline-copy-to-clipboard-button {
   background-color: var(--INTERNAL-CODE-INLINE-BG-color);
   border-color: var(--INTERNAL-CODE-INLINE-BORDER-color);
-  border-start-start-radius: 0;
-  border-start-end-radius: 2px;
-  border-end-end-radius: 2px;
-  border-end-start-radius: 0;
+  border-inline-start-style: solid;
+  border-inline-start-width: 1px;
   color: var(--INTERNAL-CODE-INLINE-color);
   margin-inline-start: calc(-1 * (22px + var(--bpx1) * 2px));
+  position: relative;
+  z-index: 10;
 }
 .inline-copy-to-clipboard-button:hover {
   background-color: var(--INTERNAL-CODE-INLINE-color);
@@ -1472,7 +1513,7 @@ html[dir='rtl'] .topbar-button-next i {
   display: none;
   padding: 5px 3px;
   position: absolute;
-  right: 4px;
+  inset-inline-end: 4px;
   top: 4px;
 }
 @media (any-hover: none) {
@@ -1503,28 +1544,6 @@ div.highlight:hover .block-copy-to-clipboard-button {
   font-size: 0.859625rem;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-#R-homelinks {
-  background-color: var(--INTERNAL-MENU-HEADER-BORDER-color);
-  padding: 0;
-}
-
-#R-homelinks.homelinks a {
-  color: var(--INTERNAL-MENU-HOME-LINK-color);
-}
-#R-homelinks.homelinks a:hover {
-  color: var(--INTERNAL-MENU-HOME-LINK-HOVER-color);
-}
-
-#R-homelinks ul {
-  margin: 0.5rem 0;
-}
-#R-homelinks hr {
-  border-color: var(--INTERNAL-MENU-HEADER-SEPARATOR-color);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  margin: 0 1rem 3px 1rem;
 }
 
 option {
@@ -1617,7 +1636,7 @@ html[dir='rtl'] .expand[open] > .box-label > i.expander-icon {
   line-height: 1.15;
   padding: 5px 3px;
   position: absolute;
-  right: 4px;
+  inset-inline-end: 4px;
   top: 4px;
 }
 .svg-reset-button:hover {
@@ -1741,6 +1760,75 @@ html[dir='rtl'] .expand[open] > .box-label > i.expander-icon {
 #TableOfContents > ul > li > a,
 .TableOfContents > ul > li > a {
   font-weight: 500;
+}
+
+/* tree shortcode */
+
+.list-tree ul {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.list-tree > ul {
+  padding-inline-start: revert;
+}
+
+.list-tree li {
+  color: var(--INTERNAL-MAIN-TEXT-color);
+  margin-bottom: 0;
+  margin-inline-end: 0;
+  margin-inline-start: 0.5rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-inline-end: 0.75rem;
+  padding-inline-start: 1.25rem;
+  padding-top: 0;
+  position: relative;
+}
+.list-tree > ul > li {
+  margin-inline-start: calc(-0.5rem);
+}
+
+.list-tree li::before,
+.list-tree li::after {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+}
+
+/* horizontal line on inner list items */
+
+.list-tree li::before {
+  border-top: 2px solid var(--INTERNAL-MAIN-TEXT-color);
+  height: 0;
+  top: 0.75rem;
+  width: 1rem;
+}
+
+/* vertical line on list items */
+
+.list-tree li:after {
+  border-left: 2px solid var(--INTERNAL-MAIN-TEXT-color);
+  height: 100%;
+  top: -0.5rem;
+  width: 0;
+}
+
+.list-tree ul:last-child li:last-child:after {
+  height: 1.25rem;
+}
+
+.list-tree i {
+  color: var(--INTERNAL-PRIMARY-color);
+  margin-inline-end: 0.25rem;
+}
+
+/* icons with style attribute */
+
+i.cstyle {
+  color: var(--VARIABLE-BOX-color);
 }
 
 .btn {
@@ -1954,20 +2042,6 @@ html[dir='rtl'] .menu-control span {
 
 .clear {
   clear: both;
-}
-
-.footerLangSwitch,
-.footerVariantSwitch,
-.footerVisitedLinks,
-.footerFooter {
-  display: none;
-}
-
-.showLangSwitch,
-.showVariantSwitch,
-.showVisitedLinks,
-.showFooter {
-  display: block;
 }
 
 /* clears the 'X' from Chrome's search input */
@@ -2420,6 +2494,8 @@ html[dir='rtl'] #R-sidebar ul.collapsible-menu > li > input:checked + label > i.
   transform: rotate(90deg);
 }
 
+/* basic logo stuff
+
 a#R-logo {
   color: var(--INTERNAL-MENU-HEADER-color);
   font-variation-settings: var(--INTERNAL-MAIN-TITLES-H4-font-variation-settings);
@@ -2674,8 +2750,57 @@ body #R-logo svg :not([fill='#000000']) {
   padding-top: calc(0.125rem - var(--bpx1) * 1px);
 }
 
-#R-menu-footer {
-  padding-bottom: 1rem;
+/* basic menu header styles */
+
+#R-homelinks {
+  background-color: var(--INTERNAL-MENU-HEADER-BORDER-color);
+  padding: 0;
+}
+
+#R-sidebar #R-homelinks ul {
+  margin: 0.75rem 0;
+}
+#R-sidebar #R-homelinks ul.space {
+  margin: 0.625rem 0;
+}
+#R-sidebar #R-homelinks ul.morespace {
+  margin: 0.5rem 0;
+}
+
+#R-homelinks .nav-title {
+  color: var(--INTERNAL-MENU-HOME-LINK-color);
+}
+
+/* override for the menu header */
+
+#R-homelinks select,
+#R-homelinks .collapsible-menu label,
+#R-homelinks .menu-control,
+#R-homelinks :is(a, span) {
+  color: var(--INTERNAL-MENU-HOME-LINK-color);
+}
+
+#R-homelinks ul.collapsible-menu li.active > a {
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-inline-start-color: transparent;
+  border-inline-end-color: transparent;
+}
+
+#R-homelinks select:hover,
+#R-homelinks :is(.collapsible-menu, :not(.collapsible-menu)) li:not(.active) > label:hover,
+#R-homelinks .menu-control:hover,
+#R-homelinks :is(.collapsible-menu, :not(.collapsible-menu)) a:hover {
+  color: var(--INTERNAL-MENU-HOME-LINK-HOVER-color);
+}
+
+#R-homelinks li.active > label,
+#R-homelinks li.active > a {
+  color: var(--INTERNAL-MENU-HOME-LINK-color);
+}
+
+#R-homelinks li.active > a {
+  background-color: transparent;
 }
 
 article .R-taxonomy ul,

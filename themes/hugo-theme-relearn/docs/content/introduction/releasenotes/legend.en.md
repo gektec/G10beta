@@ -1,7 +1,7 @@
 +++
-[_build]
-  render = "never"
-  list = "never"
+[build]
+  render = 'never'
+  list = 'never'
 +++
 
 - {{% badge color="fuchsia" icon="fa-fw fab fa-hackerrank" title=" " %}}0.126.0{{% /badge %}} Minimum required Hugo version
