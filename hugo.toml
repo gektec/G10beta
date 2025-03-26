@@ -18,4 +18,9 @@ theme = 'hugo-theme-relearn'
         identifier = 'relearn-dark'
         name = 'Dark'
 
-    
+[menu]
+  [[menu.shortcuts]]
+    pre = '<i class="fa-fw fab fa-github"></i> '
+    name = 'GitHub Repo'
+    url = 'https://github.com/gektec/G10'
+    weight = 1
