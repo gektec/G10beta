@@ -7,8 +7,10 @@ featured: true
 ---
 
 ## Introduction
+This user manual consists of two parts:
+1. **User Manual for the Virtual Environment Asset** – Instructions on opening and interacting with the virtual environment created by our team.
+2. **User Manual for the Open Educational Resource (OER)** – Guide on accessing the educational content provided.
 
-You can get our assets for testing and learning from ~~***not ready***~~.
 
 
 # User Manual for Virtual Environment Asset
@@ -31,20 +33,20 @@ This manual will guide you through installation, navigation, material customizat
 3. Click **Install** and select version **5.3.2**.
 4. Launch **Unreal Engine 5.3.2**.
 
-![Launch](/G10/images/user_manual/Launch.png)
+![Launch](Launch.png)
 
 
 ### **Step 2: Open the Virtual Environment**
 1. Locate the provided file (**UE.zip**).
 2. Extract the file.
-![Extract](/G10/images/user_manual/Extract.png)
+![Extract](Extract.png)
 
 1. Locate and double-click the file with Unreal Engine icon – Unreal Engine will launch and load the environment.
 
-![UE](/G10/images/user_manual/UE.png)
+![UE](UE.png)
 4. Press the green triangle button on top of the bar to run the environment.
 
-![play](/G10/images/user_manual/Play.png)
+![play](Play.png)
 
 ---
 
@@ -66,13 +68,13 @@ Use the following controls to move around:
 ### Asset before 
 
 
-![Lightsoff](/G10/images/user_manual/LightsOff.png)
+![Lightsoff](LightsOff.png)
 
 
 ### Asset after
 
 
-![Lightson](/G10/images/user_manual/LightsOn.png)
+![Lightson](LightsOn.png)
 
 
 ---
@@ -81,23 +83,23 @@ Use the following controls to move around:
 ### **Step 1: Select the asset you want to edit**
 1. Left-click on the asset you want to edit. Once selected, the asset will be highlighted as shown below.
 
-![Select](/G10/images/user_manual/Select.png)
+![Select](Select.png)
 
 
 ### **Step 2: Changing material**
 1. Locate the **Material** section in the **Details Panel** on the bottom right of the screen.
    
-   ![texture1](/G10/images/user_manual/Texture1.png)
+   ![texture1](Texture1.png)
    
 2. Click on the **dropdown menu** to select a different material.
     
-    ![texture2](/G10/images/user_manual/Texture2.png)
+    ![texture2](Texture2.png)
     
 
 ### **Step 3: Changing Location**
 1. After selecting the asset, a three-axis gizmo will appear.
    
-   ![move](/G10/images/user_manual/Move.png)
+   ![move](Move.png)
    
 2. Dragging the arrows moves the asset along different axes:
    - Red (X-Axis) -- Moves the object along the X-axis (Left / Right)
@@ -111,3 +113,35 @@ This virtual asset is provided for **personal and commercial use** within virtua
 For further assistance, contact the support team or visit Unreal Engine's documentation.
 
 Enjoy your virtual production experience!
+
+---
+
+# User Manual for Open Educational Resource (OER)
+
+---
+
+## 1. Introduction
+The Open Educational Resource (OER) is an online learning resource designed to provide educational content related to virtual production. It is accessible via a simple web link.
+
+---
+
+## 2. Accessing the OER
+### **Step 1: Open the Link**
+1. Click on the provided OER link or copy and paste it into your browser's address bar.
+2. Press **Enter** to load the webpage.
+
+### **Step 2: Explore the Content**
+- Navigate through the modules or sections provided.
+- Follow the learning materials at your own pace.
+
+### **Step 3: Interact with the Resource**
+- Some OERs may include quizzes, videos, or interactive elements.
+- Ensure you have a stable internet connection for a smooth experience.
+
+---
+
+## 3. License & Usage
+The OER is available for **educational use**. Redistribution or modification may be subject to specific licensing terms provided by the content creator.
+
+
+
