@@ -24,3 +24,8 @@ theme = 'hugo-theme-relearn'
     name = 'GitHub Repo'
     url = 'https://github.com/gektec/G10'
     weight = 1
+
+  [[menu.shortcuts]]
+    name = 'Merlot'
+    url = 'https://merlot.org/merlot/viewMaterial.htm?id=773474103'
+    weight = 2
