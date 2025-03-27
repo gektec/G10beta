@@ -7,10 +7,8 @@ featured: true
 ---
 
 ## Introduction
-This user manual consists of two parts:
-1. **User Manual for the Virtual Environment Asset** – Instructions on opening and interacting with the virtual environment created by our team.
-2. **User Manual for the Open Educational Resource (OER)** – Guide on accessing the educational content provided.
 
+You can get our assets for testing and learning from ~~***not ready***~~.
 
 
 # User Manual for Virtual Environment Asset
@@ -113,35 +111,3 @@ This virtual asset is provided for **personal and commercial use** within virtua
 For further assistance, contact the support team or visit Unreal Engine's documentation.
 
 Enjoy your virtual production experience!
-
----
-
-# User Manual for Open Educational Resource (OER)
-
----
-
-## 1. Introduction
-The Open Educational Resource (OER) is an online learning resource designed to provide educational content related to virtual production. It is accessible via a simple web link.
-
----
-
-## 2. Accessing the OER
-### **Step 1: Open the Link**
-1. Click on the provided OER link or copy and paste it into your browser's address bar.
-2. Press **Enter** to load the webpage.
-
-### **Step 2: Explore the Content**
-- Navigate through the modules or sections provided.
-- Follow the learning materials at your own pace.
-
-### **Step 3: Interact with the Resource**
-- Some OERs may include quizzes, videos, or interactive elements.
-- Ensure you have a stable internet connection for a smooth experience.
-
----
-
-## 3. License & Usage
-The OER is available for **educational use**. Redistribution or modification may be subject to specific licensing terms provided by the content creator.
-
-
-
