@@ -29,3 +29,9 @@ theme = 'hugo-theme-relearn'
     name = 'Merlot'
     url = 'https://merlot.org/merlot/viewMaterial.htm?id=773474103'
     weight = 2
+
+  [[menu.shortcuts]]
+    name = '2023 Group8 OER'
+    url = 'https://www.merlot.org/merlot/viewSite.htm?id=9166460'
+    weight = 3
+    
