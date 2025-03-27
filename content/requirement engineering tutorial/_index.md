@@ -1,0 +1,1 @@
+**The tutorials contains some basic skills you might need to deal with stakeholders and make your work more efficient.**
