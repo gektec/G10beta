@@ -7,4 +7,4 @@ featured: true
 ---
 
 ## 1.1 TEST
-{{< threejs version="0.160.0" id="hello" src="G10/models/test2.js" >}}
+{{< threejs version="0.160.0" id="hello" src="/G10/models/test2.js" >}}
