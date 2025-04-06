@@ -15,4 +15,4 @@ This is only a test environment. We can not distribute the full asset until our 
 
 When it is deployed on the screen, it should looks like this:
 
-![Deployed Environment](/G10/images/Deployed.png)
+![Deployed Environment](/G10/images/Deployed.jpg)
