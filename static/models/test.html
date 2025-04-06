@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Loader with Three.js</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "./three.module.js",
+            "three/": "./"
+          }
+        }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+        import { GLTFLoader } from 'three/GLTFLoader.js';
+        import { OrbitControls } from 'three/OrbitControls.js';
+    
+        // 初始化场景、相机和渲染器
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({
+        antialias: true
+        });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+    
+        // 添加灯光
+        const light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(1, 1, 1).normalize();
+        scene.add(light);
+    
+        // 加载 模型 文件
+        const loader = new GLTFLoader();
+        
+        
+        loader.load('model.gltf', function (object) {
+            scene.add(object.scene); // 将模型添加到场景中
+            //object.rotation.x = -Math.PI / 2;
+            //object.scale.set(0.02, 0.02, 0.02); // Both used in FBX mode
+
+            controls.update(); // 手动更新控制器，使设置生效
+        }, undefined, function (error) {
+            console.error('Error loading model:', error);
+        });
+    
+        // 设置相机位置
+        camera.position.set(-3, 2, 0); 
+
+    
+        // 添加 OrbitControls
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true; // 启用阻尼效果，使控制更平滑
+        controls.dampingFactor = 0.25; // 阻尼系数
+        controls.screenSpacePanning = true; // 允许在屏幕空间内平移
+        controls.minDistance = 1; // 最小缩放距离
+        controls.maxDistance = 100; // 最大缩放距离
+        controls.target.set(-5, 1, 0); 
+    
+        // 渲染循环
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update(); // 更新控制器
+            renderer.render(scene, camera);
+        }
+        animate();
+    </script>
+</body>
+</html>
