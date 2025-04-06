@@ -8,14 +8,25 @@
 <div id="threejs-container-{{ $id }}"></div>
 
 <!-- Import Three.js -->
-<script type="importmap">
+<!-- <script type="importmap">
   {
     "imports": {
       "three": "https://unpkg.com/three@{{ $version }}/build/three.module.js",
       "three/addons/": "https://unpkg.com/three@{{ $version }}/examples/jsm/"
     }
   }
+</script> -->
+
+
+<script type="importmap">
+    {
+        "imports": {
+        "three": "./three.module.js",
+        "three/": "./"
+        }
+    }
 </script>
+
 
 <!-- Load the script -->
 <script type="module" src="{{ $src }}"></script>

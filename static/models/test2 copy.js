@@ -1,8 +1,8 @@
 "use strict";
 
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/GLTFLoader.js';
-import { OrbitControls } from 'three/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/OrbitControls.js';
 
 // 初始化场景
 const scene = new THREE.Scene();
