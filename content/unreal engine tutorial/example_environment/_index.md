@@ -1,5 +1,5 @@
 ---
-title: "Example Virtyal Environment"
+title: "Example Virtual Environment"
 date: 2025-04-06T23:28:24+08:00
 tags: []
 series: []
