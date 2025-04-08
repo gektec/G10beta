@@ -7,7 +7,7 @@ featured: true
 ---
 Please use your mouse rotate around following scene. Use the scrolling wheel to zoom in or out.
 
-It may take a few seconds to load the model.
+It may take a few seconds to load the model. Some visual effects, such as shadows, are not able to be represented due to performance limitations.
 
 This is only a test environment. We can not distribute the full asset until our stakeholders have released their work.
 
