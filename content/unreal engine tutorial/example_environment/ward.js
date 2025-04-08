@@ -24,9 +24,15 @@ document.getElementById('threejs-container-hello').appendChild(renderer.domEleme
 
 
 // 添加平行光
-const light = new THREE.DirectionalLight(0xffffff, 5);
-light.position.set(-10, 3, -5).normalize();
+const light = new THREE.DirectionalLight(0xffffff, 3);
+light.position.set(0, 1.2, 1);
 light.castShadow = true;
+light.shadow.camera.left = -10;
+light.shadow.camera.right = 10;
+light.shadow.camera.top = 10;
+light.shadow.camera.bottom = -10;
+light.shadow.mapSize.width = 2048;  
+light.shadow.mapSize.height = 2048;  
 scene.add(light);
 
 // 添加环境光
@@ -39,7 +45,12 @@ loader.load(
     'scene.gltf',
     (gltf) => {
 
-      
+    gltf.scene.traverse((child) => {
+        if(child.isMesh) {
+            child.castShadow = true;    // 模型投射阴影
+            child.receiveShadow = true; // 模型接收阴影
+        }
+        });
       scene.add(gltf.scene); // 将加载的模型加入场景
       controls.update();    // 模型加载后更新控制器
     },
