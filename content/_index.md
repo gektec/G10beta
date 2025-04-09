@@ -1,5 +1,5 @@
 ---
-title: COMP2043 GRP Group 10 Open Educational Resources
+title: "Virtually Yours: Virtual Production Open Educational Resources"
 date: 2025-02-28T19:40:44+08:00
 tags: []
 series: []
