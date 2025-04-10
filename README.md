@@ -3,13 +3,14 @@
 **[View the website](https://gektec.github.io/G10/)**
 
 
-- [ ] Final Group Report
+- [x] Final Group Report
 - Individual Report
 - [x] Website
-- [ ] Demonstration
-- [ ] Presentation
-- [ ] Promotional Digital Aretfact
-- [ ] Poster
+- [x] Demonstration
+- [x] Presentation
+- [x] Promotional Digital Aretfact
+- [x] Poster
+Well done!
 
 | **Task**                                      | **Date**                          | **Time**       | **Weight** |
 |-----------------------------------------------|-----------------------------------|----------------|------------|
