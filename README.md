@@ -10,6 +10,7 @@
 - [x] Presentation
 - [x] Promotional Digital Aretfact
 - [x] Poster
+
 Well done!
 
 | **Task**                                      | **Date**                          | **Time**       | **Weight** |
