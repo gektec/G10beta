@@ -1,28 +1,21 @@
 # G10
 
-**[View the website](https://gektec.github.io/G10/)**
+This is the repository for the University of Nottingham China COMP2043.GRP Course Team 10 Group Project.
 
+**[View oru website](https://gektec.github.io/G10/)**·
 
-- [ ] Final Group Report
-- Individual Report
-- [x] Website
-- [ ] Demonstration
-- [ ] Presentation
-- [ ] Promotional Digital Aretfact
-- [ ] Poster
+<img src="./Documents/Poster.png" alt="Team Poster" style="width:50%;">
 
-| **Task**                                      | **Date**                          | **Time**       | **Weight** |
-|-----------------------------------------------|-----------------------------------|----------------|------------|
-| Project bids submission                       | Wednesday, 9 October 2024        | 3 pm           | -          |
-| Equipment requests can begin                  | From Wednesday, 16 October 2024  | -              | -          |
-| Completed Ethics forms due                    | Thursday, 31 October 2024        | 3 pm           | 3 %        |
-| Group project site up and running             | Thursday, 31 October 2024        | 3 pm           | 2 %        |
-| Interim reports due                           | Thursday, 5 December 2024        | 3 pm           | 15 %       |
-| Team final reports and software due           | Wednesday, 2 April 2025          | 3 pm           | 30 %       |
-| Recording of Software Demonstration due       | Wednesday, 9 April 2025          | 3 pm           | 10 %       |
-| Recording of Team Presentation due            | Wednesday, 9 April 2025          | 3 pm           | 10 %       |
-| Team promotional digital artefact due         | Wednesday, 9 April 2025          | 3 pm           | 5 %        |
-| Open Day                                      | Wednesday, 16 April 2025         | 9 am – 6 pm    | -          |
-| 1-minute introduction & live Q&A              | Wednesday, 16 April 2025         | 9 am – 6 pm    | 10 %       |
-| Individual final reports due                  | Tuesday, 22 April 2025           | 3 pm           | -          |
+**Team member:**
 
+Juin Yang LAM (hfyjl24@nottingham.edu.cn)
+
+Changyu LI (scycl11@nottingham.edu.cn)
+
+Jianing WANG (scyjw11@nottingham.edu.cn)
+
+Chenyu YAN (scycy10@nottingham.edu.cn)
+
+Ke LIU (scykl2@nottingham.edu.cn)
+
+Omar Elsaid Mamdouh Mahmoud ZAHRAN (scyoz1@nottingham.edu.cn)
