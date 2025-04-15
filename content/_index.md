@@ -18,11 +18,10 @@ For a practical demonstration of our work, please explore our [interactive examp
 
 Our tutorials cover a wide range of topics, including:
 
-- **Virtual Environment Development**: Understand the design and development of immersive scenes.
-
 - **Unreal Engine Setup**: Get started with Unreal Engine 5. Step-by-step instructions on installing and using Unreal Engine, along with practical techniques for developing virtual environments.
 - **Virtual Environment Development**: 
-  - Learning how to import and customize virtual assets—from either commercially available models or those created using tools like Blender (or your preferred modeling software). Please remember to check for copyright issues (refer to OER Chapter 2.4.1 for license details).
+  - Learning how to import and customize models—from either commercially available models or those created using tools like Blender (or your preferred modeling software). 
+  - Learning how to use these models to build a virtual environment.
   - Employing additional plugins, such as Fab, Twinmotion, and Datasmith, to streamline the virtual production process.
 - **Techniques for Teamwork in Unreal Engine**: Learn collaborative skills essential for virtual production.
 
