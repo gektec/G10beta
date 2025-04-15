@@ -5,7 +5,7 @@ tags: []
 series: []
 featured: true
 ---
-Please use your mouse rotate around following scene. Use the scrolling wheel to zoom in or out.
+Please use a computer to operate. Use your mouse rotate around following scene. Use the scrolling wheel to zoom in or out.
 
 It may take at most a minute to load the model. Some visual effects, such as ray tracing, are not able to be represented due to performance limitations.
 
